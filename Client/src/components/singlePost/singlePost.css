@@ -1,0 +1,106 @@
+.singlePost {
+  flex: 9;
+  max-width: 70%;
+  margin-right: 80px;
+}
+.singlePostWrapper {
+  padding: 20px;
+  padding-right: 0;
+}
+
+.singlePostImage {
+  width: 100%;
+  height: 350px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.singlePostTitle {
+  text-align: center;
+  margin: 10px;
+  font-family: "Lora", serif;
+  font-size: 28px;
+}
+
+.singlePostEdit {
+  float: right;
+  font-size: 16px;
+}
+.singlePostIcon {
+  margin-left: 10px;
+  cursor: pointer;
+}
+.singlePostIcon:first-child {
+  color: #698474;
+}
+.singlePostIcon:last-child {
+  color: #ffaaa5;
+}
+
+.singlePostInfo {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  color: #698474;
+  font-family: "Varela", sans-serif;
+}
+
+.singlePostDescription {
+  color: #666;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: left;
+  padding: 5px;
+}
+.par {
+  padding-bottom: 15px;
+}
+
+.par::first-letter {
+  margin-left: 5px;
+  font-size: 30px;
+  font-weight: 600;
+}
+.singlePostTitleInput {
+  text-align: center;
+  margin: 10px;
+  font-family: "Lora", serif;
+  font-size: 28px;
+  color: #698474;
+}
+
+.singlePostTitleInput:focus {
+  outline: none;
+  border: 1px solid #698474;
+}
+
+.singlePostDescriptionInput {
+  text-align: center;
+  margin: 10px;
+  font-family: "Lora", serif;
+  font-size: 20px;
+}
+
+.singlePostDescriptionInput:focus {
+  outline: none;
+  border: 1px solid #698474;
+}
+
+.singlePostButton {
+  cursor: pointer;
+  border-radius: 5em;
+  color: #fff;
+  background: linear-gradient(to right, #698474, #a7c4bc);
+  border: 0;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-family: "Lora", serif;
+  margin-left: 30px;
+  font-size: 13px;
+  margin-top: 30px;
+  box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+  max-width: 30%;
+  font-family: "Lora", serif;
+}
